@@ -13,4 +13,8 @@ RSpec.describe "Fibonacci" do
   it "should return an array" do
     expect(@fibonacci.result).to eq([])
   end
+
+  it "should accept an number as argument" do
+    expect(Fibonacci.new(12)).to eq([])
+  end
 end
