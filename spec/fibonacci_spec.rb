@@ -10,4 +10,7 @@ RSpec.describe "Fibonacci" do
     expect(@fibonacci.class).to eq(Fibonacci)
   end
 
+  it "should return an array" do
+    expect(@fibonacci.result).to eq([])
+  end
 end
