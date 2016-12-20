@@ -15,6 +15,6 @@ RSpec.describe "Fibonacci" do
   end
 
   it "should accept an number as argument" do
-    expect(Fibonacci.new(12)).to eq([])
+    expect(@fibonacci.sequence(12).class).to eq(Fixnum)
   end
 end
